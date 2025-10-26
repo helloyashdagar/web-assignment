@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Room Booking </title>
+</head>
+
+<body align="center">
+   <b>
+      <form></form>
+      <h1>
+         Hotel Room Booking Form
+      </h1>
+
+      <div>
+         <label for="name">Full Name:</label>
+         <input id="name" type="text" required>
+      </div>
+      <br>
+      <div>
+         <label for="email">Email:</label>
+         <input id="email" type="email" required>
+      </div>
+      <br>
+      <div>
+         <label for="phone">Phone</label>
+         <input id="phone" type="tel" required>
+      </div>
+      <br>
+      <div>
+         <label for="checkin">Check-in-Date:</label>
+         <input id="checkin" type="date" required>
+      </div>
+      <br>
+      <div>
+         <label for="checkout">Check-out-Date:</label>
+         <input id="checkout" type="date" required>
+      </div>
+      <br>
+      <div>
+         <label for="roomtype">Room-Type:</label>
+         <select id="roomtype" required>
+            <option value="" disabled selected>select room type</option>
+            <option value="Single Room">Single Room</option>
+            <option value="Double Room">Double Room</option>
+            <option value="Suite">Suite</option>
+         </select>
+      </div>
+      <br>
+      <div>
+         <label for="numberofguests">Number of Guests:</label>
+         <input id="numberofguests" type="number" min="1" required>
+         
+   
+
+      </div>
+      <br>
+      <div>
+         <label for="comments">Special Request:</label> <br>
+
+         <textarea id="comments"></textarea>
+      </div> <br>
+      <div>
+         <button type="submit">Book Now</button>
+         <button type="reset ">Reset Form</button>
+      </div>
+   </b>
+   </form>
+</body>
+
+</html>
