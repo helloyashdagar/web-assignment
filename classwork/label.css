@@ -1,0 +1,103 @@
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+}
+
+.label {
+  border: 6px solid #000; 
+  width: 300px;
+  padding: 10px 15px;
+  box-sizing: border-box;
+}
+
+.bold {
+  font-weight: 800;
+}
+
+.small-text {
+  font-size: 0.8em;
+}
+
+header h1 {
+  font-size: 1.5em;
+  margin: 0;
+  padding: 0;
+}
+
+header p {
+  margin: 5px 0;
+}
+
+header p span {
+  font-weight: 400;
+}
+
+/* Dividers */
+.divider {
+  border-top: 1px solid #000;
+  margin: 5px 0;
+}
+
+.divider.medium {
+  border-top: 2px solid #000;
+  margin: 8px 0;
+}
+
+.divider.large {
+  border-top: 4px solid #000;
+  margin: 10px 0;
+}
+
+.divider.double-indent {
+  margin-left: 20px;
+  border-top: 1px solid #000;
+}
+
+/* Calories info */
+.calories-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.2em;
+}
+
+.left-container h2 {
+  margin: 0;
+}
+
+.left-container p {
+  margin: 2px 0;
+}
+
+/* Daily value section */
+.daily-value {
+  font-size: 0.8em;
+}
+
+.daily-value p {
+  display: flex;
+  justify-content: space-between;
+  margin: 3px 0;
+}
+
+.daily-value .indent {
+  padding-left: 15px;
+}
+
+.daily-value .double-indent {
+  padding-left: 30px;
+}
+
+.daily-value .right {
+  text-align: right;
+}
+
+/* Note at bottom */
+.note {
+  font-size: 0.7em;
+  margin-top: 10px;
+}
